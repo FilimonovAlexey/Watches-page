@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    width: 1440px;
   }
   
   *, *:before, *:after {
@@ -23,7 +24,6 @@ body {
 
 .header__container {
     display: flex;
-    width: 1440px;
     padding-top: 104px;
     padding-left: 133px;
     padding-right: 133px;
