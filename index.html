@@ -8,22 +8,33 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>mor705</h1>
-        <p>Watch</p>
-        <p>The watch also features a tough and durable sapphire a Swiss Sellita SW200-1 automatic winding movement that has a power reserve</p>
-        <a href="/">Buy watch</a>
-        <div>1700$</div>
-        <img 
-            srcset="./images/mor705.png,
-                    ./images/mor705@2x.png 2x"
-            src="./images/mor705.png"
-            alt="Model mor705">
+    <header class="header">
+        <div class="header__container">
+            <div>
+                <h1 class="header__title">mor705</h1>
+                <p class="header__subtitle">Watch</p>
+                <p class="header__description">The watch also features a tough and durable sapphire a Swiss Sellita SW200-1 automatic winding movement that has a power reserve</p>
+                <div class="buy__wrapper">
+                    <a href="/" class="buy-link">Buy watch</a>
+                    <div class="price">1700$</div>
+                </div>
+            </div>
+
+            <div class="header__img-wrapper">
+                <img 
+                class="header__img"
+                srcset="./images/mor705.png,
+                        ./images/mor705@2x.png 2x"
+                src="./images/mor705.png"
+                alt="Model mor705">
+            </div>
+        </div>
+
     </header>
 
     <main>
